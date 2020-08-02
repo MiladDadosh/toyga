@@ -68,20 +68,20 @@
 							<form onsubmit="onFormSubmit(event)" action="#">
 								<div class="flex">
 									<div class="form-group w-md-50 pr-1">
-										<input type="text" class="form-control" name="firstName" placeholder="İsim" >
+										<input type="text" class="form-control" name="firstName" placeholder="İsim" required>
 									</div>
 									<div class="form-group w-md-50 pl-1">
-										<input type="text" class="form-control" name="lastName" placeholder="Soyadı" >
+										<input type="text" class="form-control" name="lastName" placeholder="Soyadı" required>
 									</div>
 								</div>
 								<div class="form-group">
-									<input type="text" pattern="[0-9]*" inputmode="numeric" maxlength="2" name="age" placeholder="Yaş" class="form-control" >
+									<input type="text" pattern="[0-9]*" inputmode="numeric" maxlength="2" name="age" placeholder="Yaş" class="form-control" required>
 								</div>
 								<div class="form-group">
-									<input type="email" name="email" placeholder="E-posta adresi" class="form-control" >
+									<input type="email" name="email" placeholder="E-posta adresi" class="form-control" required>
 								</div>
 								<div class="form-group">
-									<select name="country" class="form-control" >
+									<select name="country" class="form-control" required>
 										<option data-v-5131aab7="" value="UN">Lütfen seçin</option>
 										<option data-v-5131aab7="" value="CA">Canada</option>
 										<option data-v-5131aab7="" value="AF">Afghanistan</option>
@@ -94,10 +94,10 @@
 								</div>
 								<div class="flex">
 									<div class="form-group pr-1 w-20">
-										<input type="text" class="form-control" name="countryKey" placeholder="+972" >
+										<input type="text" class="form-control" name="countryKey" placeholder="+972" required>
 									</div>
 									<div class="form-group pl-1 w-80">
-										<input type="number" name="phone" placeholder="Telefon Numarası" class="form-control" >
+										<input type="number" name="phone" placeholder="Telefon Numarası" class="form-control" required>
 									</div>
 								</div>
 
