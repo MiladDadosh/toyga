@@ -1,0 +1,62 @@
+section#intro {
+	background: url(https://kacirilmayacakfirsat.com/tr/bitcoin-safe/images/900.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+	.form-wrap {
+		background-color: rgba(68, 68, 68, 0.836);
+		padding: 50px 15px;
+		width: 100%;
+
+		.form-title {
+			width: 100%;
+			max-width: 800px;
+			margin: auto;
+			margin-bottom: 20px;
+			h2 {
+				font-weight: 700;
+				color: #fff;
+			}
+		}
+
+		.form-body {
+			iframe {
+				width: 100%;
+				height: 100%;
+			}
+
+			form {
+				input, select {
+					border-radius: 0;
+					border: 0;
+				}
+			}
+		}
+	}
+
+	.thankyou {
+		img {
+			width: 140px;
+		}
+		h2, p, td,th {
+			color: #fff
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		.form-wrap .form-body form {
+			max-width: 360px;
+			margin: auto;
+		}
+	} 
+
+	@media screen and (max-width: 767px) {
+		.form-wrap .form-body iframe {
+			padding-bottom: 20px;
+		}
+	}
+
+}

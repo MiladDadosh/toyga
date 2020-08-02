@@ -1,0 +1,99 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+*:not(i) {
+	transition: all .4s ease;
+	outline: none !important;
+}
+
+h1 {
+	font-size: $h1-size;
+	color: $text-color;
+}
+
+h2 {
+	font-size: $h2-size;
+	color: $text-color;
+}
+
+h3 {
+	font-size: $h3-size;
+	color: $text-color;
+}
+
+p {
+	font-size: $p-size;
+	color: $text-color;
+}
+
+section {
+	padding-top: $padding-top;
+	padding-bottom: $padding-bottom;
+}
+
+.color-yellow {
+	color: rgb(224, 165, 0) !important;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+.w-20 {width: 20%}
+.w-80 {width: 80%}
+.w-md-50 {width: 100%}
+
+.btn-submit {
+	background: linear-gradient(180deg,#44b71e 0,#267300);
+    border-radius: 3px;
+    font-size: 41px;
+    cursor: pointer;
+    border: 1px solid #4ccd22;
+    color: #e1e1e1;
+}
+
+.title {
+	margin-bottom: 30px;
+	h2 {
+		font-size: 2.5rem;
+		color: $text-color;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.w-md-50 {width: 50%}
+}
+
+@media screen and (max-width: 600px) {
+	section {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	h1 {
+		font-size: 36px !important;
+	}
+
+	h2 {
+		font-size: 24px !important;
+	}
+
+	h3 {
+		font-size: 18px !important;
+	}
+
+	p {
+		font-size: 14px !important;
+	}
+
+	.title {
+		margin-bottom: 20px;
+	}
+}

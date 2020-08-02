@@ -1,0 +1,26 @@
+section#template_section {
+	background: url(https://kacirilmayacakfirsat.com/tr/bitcoin-safe/images/bit.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 0;
+
+	.person-img img {
+		max-width: 100%;
+		object-fit: cover;
+	}
+
+	.info {
+		background-color: rgba(54, 54, 54, 0.90);
+		> div {
+			padding: 15px;
+			> * {
+				color: #fff;
+				font-size: 1.4rem;
+			}
+			> h2 {
+				font-size: 1.8rem;
+			}
+		}
+	}
+}

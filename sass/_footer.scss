@@ -1,0 +1,20 @@
+footer {
+	background-color: $text-color;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	.soft-img {
+		margin-bottom: 30px;
+		img {width: 55%}
+	}
+
+	p {
+		color: #fff;
+		line-height: 20px;
+		font-size: 14px;
+	}
+
+	@media screen and (max-width: 576px) {
+		.soft-img img{width: 90%}
+	}
+}
